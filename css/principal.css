@@ -24,15 +24,23 @@ header{
     align-items: center;
     justify-content: right;
 }
-
-.container{
-    background-color: #eee;
+.container {
+    width: 100vw;
+    background-color: #ffffff;
     min-height: 60vh;
-    padding: 50px;
+    
+}
+
+.catalago-produto{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card{
-    width: 29%;
+    width: 29.5%;
     margin: 1% 1%;
     display: inline-block;
     padding: 15px;
@@ -47,6 +55,30 @@ header{
 }
 
 #img-1{
-    background-image: url('../img/costela.jpg');
-    border-radius: 5px;
+    background-image: url('/img/costela.jpg');
+}
+#img-2{
+    background-image: url('/img/costela.jpg');
+}
+#img-3{
+    background-image: url('/img/picanha.jpg');
+}
+#img-4{
+    background-image: url('/img/espetinhomignon.jpg');
+}
+#img-5{
+    background-image: url('/img/linguiça.jpg');
+}
+#img-6{
+    background-image: url('/img/costela.jpg');
+}
+
+.btn{
+    display: block;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #E30224;
+    color: black;
+    width: 95%;
 }
