@@ -55,10 +55,10 @@ header{
 }
 
 #img-1{
-    background-image: url('/img/costela.jpg');
+    background-image: url('/img/espetinhoTradicional.jpeg');
 }
 #img-2{
-    background-image: url('/img/costela.jpg');
+    background-image: url('/img/espetinhoFrango.jpeg');
 }
 #img-3{
     background-image: url('/img/picanha.jpg');
@@ -75,10 +75,25 @@ header{
 
 .btn{
     display: block;
-    padding: 7px;
     text-align: center;
     text-decoration: none;
     background-color: #E30224;
     color: black;
-    width: 95%;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: #4A4239;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    text-align: center;
 }
