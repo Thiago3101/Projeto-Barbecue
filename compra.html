@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Compra</title>
   <link rel="stylesheet" href="css/compra.css">
+  <link rel="shortcut icon" href="icon/chicken.png" type="image/x-icon">
 </head>
 
 <body>
   <header>
-    <div class="left-header"><img class="menu" src="icon/cardapio.png"></div>
+    <div class="left-header"><a href="Principal.html"><img class="menu" src="icon/cardapio.png"></a></div>
     <div class="right-header">
       <h1>Barbecue</h1>
     </div>
@@ -19,18 +20,23 @@
   <main class="container">
 
     <div class="img"><img src="./img/espetinhoTradicional.jpeg" alt="carne"></div>
+
     <div class="etc">
       <h1>Espetinho Tradicional</h1>
-      <div id="icon"><ion-icon name="star-outline">
-          <ion-icon name="star-outline"></ion-icon>
-        </ion-icon></div>
+      <div class="avaliacao">
+        <img class="star" src="icon/estrela-preenchida.png" alt="estrala de avaliação">
+        <img class="star" src="icon/estrela-preenchida.png" alt="estrala de avaliação">
+        <img class="star" src="icon/estrela-preenchida.png" alt="estrala de avaliação">
+        <img class="star" src="icon/estrela-preenchida.png" alt="estrala de avaliação">
+        <img class="star" src="icon/estrela.png" alt="estrala de avaliação">
+      </div>
+      <h2>R$ <span class="preco">12,00</span></h2>
+      <a href="#" class="btn-comprar">Comprar</a>
     </div>
 
   </main>
 
-  <footer classe="low-header"> <a href="#" style="color: #FFFFFF;" target="_blank">Conheça-nos</a></footer>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <footer classe="low-header"> <a href="#" style="color: #FFFFFF; text-decoration: none;" target="_blank">Conheça-nos</a></footer>
 </body>
 
 </html>

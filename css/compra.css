@@ -34,6 +34,7 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: right;
+    padding-right: 10px;
 }
 
 .low-header {
@@ -61,8 +62,7 @@ body {
     z-index: 1;
 }
 
-.img,
-.etc {
+.img{
 
     width: 50%;
     height: auto;
@@ -82,20 +82,48 @@ body {
 }
 
 .etc {
-
-    background-color: turquoise;
+    width: 50%;
+    background-color: #d8c3a9;
+    padding-top: 3%;
+    padding-left: 5%;
 }
 
 .etc h1 {
     display: inline-block;
     max-width: 100%;
-    border: 1px solid red;
     font-size: 25px;
-
-
 }
 
-#icon {
-    border: 1px solid red;
-    margin-right: 200px;
+.avaliacao{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.star{
+    width: 30px;
+    height: 30px;
+}
+
+.etc h2{
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+
+.preco{
+    color: darkred;
+}
+
+.btn-comprar{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #E30224;
+    width: 50%;
+    border-radius: 5px;
 }

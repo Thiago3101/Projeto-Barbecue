@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    height: 100%;
+}
 header{
     height: 50px;
     background-color: #E30224;
@@ -23,8 +27,10 @@ header{
     width: 50%;
     align-items: center;
     justify-content: right;
+    padding-right: 10px;
 }
 .container {
+    height: 100vh;
     width: 100vw;
     background-color: #ffffff;
     min-height: 60vh;
@@ -84,16 +90,16 @@ header{
 }
 
 .rodape{
+    padding-top: 50px;
     width: 100%;
     height: 100px;
     background-color: #4A4239;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .rodape a{
+    display: block;
     text-decoration: none;
     color: white;
+    width: 100%;
     font-size: x-large;
     text-align: center;
 }
